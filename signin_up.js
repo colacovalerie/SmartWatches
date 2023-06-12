@@ -45,7 +45,7 @@ function logintoApp() {
     if (localStorage.getItem(username)) {
         if (localStorage.getItem(username) == password) {
             localStorage.setItem('User', username)
-            window.location.assign("watch.html");
+            window.location.assign("index.html");
             alert("login successful")
         }
         else {

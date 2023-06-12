@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Sign Up</title>
+    <link rel="stylesheet" href="./signin_up.css">
+    <script src="https://kit.fontawesome.com/c6a50971fb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <div class="formbox">
+            <div class="formbutton">
+                <span id="spansignup" onclick="signin()">SignIN</span>
+                <span id="spansignup" onclick="signup()">SignUP</span>
+
+            </div>
+
+            <div id="signin">
+                <h1>SignIN</h1>
+                <div class="textfields">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="username" id="sinname" required>
+                    <label for="">Username</label>
+                    <span id="valname"></span>
+                </div>
+                <div class="textfields">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="sinpass" required>
+                    <label for="password">Password</label>
+                    <span id="valpas"></span>
+                </div>
+                <div class="remember-me">
+                    <label for=""><input type="checkbox"> Remember me  <a href="#forgot" style="color:whitesmoke; margin-left: 10px; border:2px solid rgb(205, 180, 180); border-radius: 20px; padding:5px; margin-left: 10px" onclick="forgotp()" id="for">Forgot
+                        Password</a>
+                </div>
+                <button onclick="logintoApp()">SignIn</button>
+                <div class="signup-link">
+                    <p>Don't have an account? <a href="" onclick="signup()"
+                            style="color:whitesmoke; margin-left: 10px; border:2px solid rgb(205, 180, 180); border-radius: 20px; padding:5px">SignUP</a></p>
+                </div>
+            </div>
+            <div id="signup">
+                <h1>SignUP</h1>
+                <div class="textfields">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="username" id="supname" required>
+                    <label for="username">Username</label>
+                    <span id="nameval"></span>
+                </div>
+                <!-- <div class="textfields">
+                    <i class="fa-solid fa-square-envelope"></i>
+                    <input type="email" required name="email" id="email">
+                    <label for="email">E-mail</label>
+                </div> -->
+                <div class="textfields">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="suppass" required>
+                    <label for="password">Password</label>
+                    <span id="passval"></span>
+                </div>
+                <div class="remember-me">
+                    <label for=""><input type="checkbox" required class="rem"> I agree to the terms and
+                        conditions</label>
+                </div>
+                <button onclick="loginstorage()">SignUp</button>
+                <div class="signup-link">
+                    <p>Already have an account? <a href="#signinnow" onclick="signin()"
+                            style="color:whitesmoke; margin-left: 10px; border:2px solid rgb(205, 180, 180); border-radius: 20px; padding:5px">SignIN</a></p>
+                </div>
+
+            </div>
+            <div id="forgot">
+                <h1>forgot</h1>
+                <div class="textfields">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="username" id="forname" required>
+                    <label for="">Username</label>
+                    <span id="namefor"></span>
+                </div>
+                <div class="textfields">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="forpass" required>
+                    <label for="password">Password</label>
+                    <span id="pasfor"></span>
+                </div>
+
+
+                <p id="passwordp" onclick="forgotApp()" style="color:lightcoral;">OK</p>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./signin_up.js"></script>
+</body>
+
+</html>

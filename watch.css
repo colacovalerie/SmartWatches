@@ -1,0 +1,1516 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#gp {
+    margin-left: 30px
+}
+
+#hrt {
+    margin-left: 110px
+}
+
+#calls {
+    margin-left: 160px
+}
+
+#access {
+    margin-left: 190px
+}
+
+
+
+
+.watchdata {
+    margin: 20px;
+}
+
+.carouse {
+    background-color: rgba(36, 17, 104, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bootcarou {
+    width: 40%
+}
+
+/* .corouseldata
+{
+    width:60%
+} */
+
+h4 i {
+
+    margin-right: 10px;
+}
+
+#sm {
+    background: linear-gradient(rgb(175, 109, 109), yellow);
+    border-radius: 20px;
+    animation: animate1 1s linear infinite;
+    width: fit-content;
+}
+
+@keyframes animate1 {
+    100% {
+        filter: hue-rotate(180deg);
+    }
+}
+
+#light {
+    background: linear-gradient(rgb(175, 109, 109), yellow);
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 40px;
+}
+
+.seccontainer {
+    background: linear-gradient(rgba(255, 0, 0, 0.4), rgba(0, 0, 255, 0.2)), url("https://m.media-amazon.com/images/I/712KKNCj1QL._AC_SL1001_.jpg") repeat;
+
+}
+
+
+#header {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.flex img {
+    margin-right: 10px;
+    border-radius: 80px
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 2px 2px red;
+    font-size: 20px;
+    position: relative;
+    font-weight: bolder;
+}
+
+nav ul li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(red, blue);
+    position: absolute;
+    bottom: -6px;
+    left: 0px;
+    transition: .5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+nav ul li i {
+    color: white;
+    margin-right: 10px;
+
+}
+
+#exp {
+    margin-left: 150px;
+}
+
+/* .containerhead{
+
+   text-align: end;
+} */
+
+/* #span1{
+    margin-top:40px;
+} */
+
+
+#Account {
+    text-shadow: 2px 2px 10px red;
+    color: white;
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    100% {
+        filter: hue-rotate(145deg);
+    }
+}
+
+#logout {
+    padding: 5px;
+    background: transparent;
+    border: none;
+    box-shadow: 2px 2px 10px red;
+    color: white;
+    text-shadow: 4px 2px 2px red;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: animate1 1s linear infinite;
+    background: linear-gradient(360deg, rgb(202, 124, 124), rgb(110, 110, 168));
+    height: 70px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 5px;
+}
+
+@keyframes animate1 {
+    100% {
+        filter: hue-rotate(180deg);
+    }
+}
+
+
+#wat {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 3px red;
+    text-transform: uppercase;
+    border-radius: 15px 10px 30px 20px;
+    animation: animate1 1s linear infinite;
+
+}
+
+@keyframes animate1 {
+    100% {
+        filter: hue-rotate(180deg);
+    }
+}
+
+.details {
+    margin-top: 40px;
+    display: flex;
+}
+
+/* 
+.item
+{
+    display:flex
+} */
+
+.container {
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgb(247, 177, 177), rgb(138, 163, 138), rgb(131, 131, 177));
+    background-position: center;
+
+}
+
+
+.container .containeritem {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 15px;
+    grid-row-gap: 20px;
+    width: 100%;
+    transition: .3s;
+}
+
+/* 
+.image-boxe {
+    width: 126%;
+    height:250px;
+    overflow: hidden;
+    margin-left:-20px;
+} */
+
+/* .imagees {
+    margin-top: 20px;
+    width: 112%;
+    height: 200px;
+    background-image: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495');
+    transition: all .5s ease;
+    background-size: 100% 100%;
+
+} */
+
+/* .imagees:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+
+} */
+
+.item {
+    max-width: 200px;
+    height: 450px;
+    padding: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.item:hover {
+    box-shadow: 2px 2px 10px red;
+    scale: 1.02;
+}
+
+
+.imgit {
+
+    margin-top: 20px;
+    margin-left: -20px;
+    width: 123%;
+    height: 225px;
+    border-radius: 900px;
+
+}
+
+.imgit:hover {
+
+    border-radius: 900px;
+    transform: scale(1.2);
+    transition: all .5s ease;
+    cursor: pointer;
+
+}
+
+.cost {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.name {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.add {
+    display: block;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 20px auto;
+    margin-top: 20px;
+    /* margin-left:50px; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#add1,
+#add2,
+#add3,
+#add4,
+#add5,
+#add6,
+#add7,
+#add8,
+#add9,
+#add10,
+#add11,
+#add12,
+#add13,
+#add14,
+#add15,
+#add16 {
+    display: block;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 20px auto;
+    margin-top: 20px;
+    /* margin-left:50px; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.rightpanel {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 35%;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+    position: sticky;
+    top: 0px;
+    transition: .3s;
+    display: none;
+
+}
+
+.panel-head {
+    background: linear-gradient(90deg, blue, red);
+    color: white;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.panelcontent {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid blue;
+    padding: 20px;
+}
+
+.panelcontent img {
+    margin-right: 25px;
+}
+
+.spancontents {
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.divcount {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.textbox {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+
+.divcount i {
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 90%;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ite {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.btndel {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    cursor: pointer;
+    display: block;
+    z-index: 20;
+}
+
+.btndel i {
+    pointer-events: none;
+}
+
+.total {
+    background-color: rgb(211, 223, 231);
+    padding: 20px;
+
+}
+
+.totcost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btntotal {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btntotal:hover {
+    scale: 1.05;
+}
+
+
+.foot {
+    background: linear-gradient(90deg, rgb(185, 108, 108), rgba(0, 0, 255, 0.5));
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 4px 4px orangered;
+    margin-top: 10px;
+}
+
+.gg,
+.gh {
+    visibility: hidden;
+}
+
+
+@media screen and (min-width:992px)and (max-width:1199px) {
+    .container {
+        display: flex;
+    }
+
+    .container .containeritem {
+
+        width: 70%;
+        transition: .3s;
+    }
+
+
+    .rightpanel {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 50%;
+        margin-top: 10px;
+        overflow: hidden;
+        margin-bottom: auto;
+        position: sticky;
+        top: 0px;
+        transition: .3s;
+        display: none;
+
+    }
+}
+
+@media screen and (min-width:768px)and (max-width:991px) {
+    .container {
+        display: block;
+    }
+
+    .rightpanel {
+
+        width: 100%;
+    }
+
+    .container .containeritem {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto auto);
+        width: 100%;
+        transition: .3s;
+
+    }
+
+    .item {
+        width: 100%
+    }
+
+
+    #muchmore {
+        display: block;
+        margin-left: 100px
+    }
+
+    .watchdata h4 {
+
+        font-size: 18px
+    }
+
+    #sm {
+        font-size: 30px;
+    }
+
+
+    #sm {
+        background: linear-gradient(rgb(175, 109, 109), yellow);
+        border-radius: 20px;
+        animation: animate1 1s linear infinite;
+        width: fit-content;
+        margin-left: 25px;
+    }
+
+    #Account {
+        font-size: 10px
+    }
+
+}
+
+@media screen and (min-width:678px)and (max-width:767px) {
+    .container {
+        display: block;
+    }
+
+
+
+    .rightpanel {
+
+        width: 100%;
+
+
+    }
+
+    .container .containeritem {
+        /* margin-top: 10px; */
+        display: grid;
+        grid-template-columns: repeat(auto auto);
+        width: 100%;
+        transition: .3s;
+
+    }
+
+    .item {
+        width: 100%
+    }
+
+    .watchdata h4 {
+
+        font-size: 20px
+    }
+
+    #exp {
+        margin-left: 60px;
+    }
+
+
+    #muchmore {
+        display: block;
+        margin-left: 100px
+    }
+
+    .watchdata h4 {
+
+        font-size: 15px
+    }
+
+    #sm {
+        font-size: 25px;
+    }
+
+    #hrt {
+        margin-left: 80px
+    }
+
+    #calls {
+        margin-left: 100px
+    }
+
+    #Account {
+        font-size: 10px
+    }
+}
+
+@media screen and (min-width:417px)and (max-width:769px) {
+    .container {
+        display: block;
+    }
+
+
+
+    .rightpanel {
+
+        width: 100%;
+
+
+    }
+
+    .container .containeritem {
+        /* margin-top: 10px; */
+        display: grid;
+        grid-template-columns: repeat(auto auto);
+        width: 100%;
+        transition: .3s;
+
+    }
+
+    .item {
+        width: 100%
+    }
+
+    .watchdata h4 {
+
+        font-size: 20px
+    }
+
+    #exp {
+        margin-left: 60px;
+    }
+
+    #hrt {
+        margin-left: 80px
+    }
+
+    #calls {
+        margin-left: 100px
+    }
+
+
+    .watchdata h4 {
+
+        font-size: 15px
+    }
+
+    #sm {
+        font-size: 25px;
+    }
+
+
+    #muchmore {
+        display: block;
+        margin-left: 50px
+    }
+
+    #wat {
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .span img {
+        width: 50px;
+        height: 40px
+    }
+
+    .gg,
+    .gh {
+        visibility: visible;
+    }
+
+    nav ul {
+        background-color: rgba(36, 17, 104, 0.3);
+        ;
+        width: 110px;
+        height: 210px;
+        margin-right: -10px;
+        padding-top: 20px;
+        position: fixed;
+        top: 2px;
+        left: -120px;
+        z-index: 100;
+        transition: right 0.5s;
+        border-radius: 40px
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px;
+        margin-left: -10px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    nav .gg {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    nav .gh {
+        position: absolute;
+        left: 0px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    #Account {
+        font-size: 15px
+    }
+
+}
+
+@media screen and (min-width:300px)and (max-width:416px) {
+    .container {
+        display: block;
+    }
+
+    #header {
+        display: block
+    }
+
+    .bootcarou {
+        width: 100%;
+    }
+
+
+    .rightpanel {
+
+        width: 100%;
+
+
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .add {
+
+        padding: 8px 8px;
+        margin: 20px auto;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    #add1,
+    #add3,
+    #add5,
+    #add7,
+    #add9,
+    #add11,
+    #add13,
+    #add15 {
+
+        padding: 5px 5px;
+        margin: 20px auto;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+    #add2,
+    #add4,
+    #add6,
+    #add8,
+    #add10,
+    #add12,
+    #add14 {
+
+        padding: 5px 5px;
+        margin: 20px auto;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+
+
+    .watchdata h4 {
+
+        font-size: 15px
+    }
+
+    #sm {
+        font-size: 30px;
+    }
+
+    .gg,
+    .gh {
+        visibility: visible;
+    }
+
+    nav ul {
+        background-color: rgba(36, 17, 104, 0.3);
+        ;
+        width: 110px;
+        height: 210px;
+        margin-right: -10px;
+        padding-top: 20px;
+        position: fixed;
+        top: 2px;
+        right: -120px;
+        z-index: 100;
+        transition: right 0.5s;
+        border-radius: 40px
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px;
+        margin-left: -10px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    nav .gg {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    nav .gh {
+        position: absolute;
+        left: 0px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width:656px)and (max-width:677px) {
+
+    #sm {
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    #muchmore {
+        display: inline;
+    }
+
+    #light {
+        margin-left: 90px;
+        margin-top: 10px
+    }
+
+    #exp {
+        margin-left: 170px;
+    }
+
+}
+
+@media screen and (min-width:500px)and (max-width:655px) {
+
+    #sm {
+        font-size: 25px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    #muchmore {
+        display: inline;
+    }
+
+    #light {
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: 10px
+    }
+
+    #exp {
+        margin-left: 100px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width:447px)and (max-width:677px) {
+
+    .carouse {
+        display: block
+    }
+
+    .bootcarou {
+        width: 100%
+    }
+
+    .corouseldata {
+        margin-left: 50px;
+    }
+
+
+
+    .watchdata h4 {
+
+        font-size: 20px;
+
+    }
+
+
+    #sm {
+        font-size: 25px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    #muchmore {
+        display: inline;
+        margin-left: 0px;
+    }
+
+    #light {
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 10px
+    }
+
+    #exp {
+        margin-left: 70px;
+    }
+
+
+    #wat {
+        color: white;
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+
+    #gp {
+        margin-left: 0
+    }
+
+    #hrt {
+        margin-left: 0
+    }
+
+    #calls {
+        margin-left: 0
+    }
+
+    #access {
+        margin-left: 0
+    }
+
+    .flex {
+        display: block;
+    }
+
+    /* #light {
+        margin-left: 10px;
+    } */
+
+    .gg,
+    .gh {
+        visibility: visible;
+    }
+
+    nav ul {
+        background-color: rgba(36, 17, 104, 0.3);
+        ;
+        width: 120px;
+        height: 210px;
+        margin-right: -10px;
+        padding-top: 20px;
+        position: fixed;
+        top: 2px;
+        right: -120px;
+        z-index: 100;
+        transition: right 0.5s;
+        border-radius: 40px
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px;
+        margin-left: -10px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    nav .gg {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    nav .gh {
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    #Account {
+        font-size: 15px
+    }
+
+}
+
+@media screen and (min-width:200px)and (max-width:300px) {
+
+
+
+    .carouse {
+        display: block;
+    }
+
+    .rightpanel {
+        width: 100%;
+    }
+
+    .bootcarou {
+        width: 100%
+    }
+
+
+    .corouseldata {
+        margin-left: 50px;
+    }
+
+    #muchmore {
+        display: inline;
+        margin-left: 10px
+    }
+
+    .watchdata h2,
+    h4 {
+
+        font-size: 10px;
+
+    }
+
+    .watchdata {
+        margin-left: -40px;
+
+    }
+
+    .item {
+        width: 100%
+    }
+
+    #sm {
+        margin-left: -30px;
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+
+    #muchmore {
+        display: block;
+        margin-left: 120px;
+        font-size: smaller;
+
+    }
+
+    #wat {
+        color: white;
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+
+    #gp {
+        margin-left: 0;
+        font-size: 15px;
+
+    }
+
+    #hrt {
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    #calls {
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    #access {
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .span img {
+        width: 50px;
+        height: 50px
+    }
+
+
+    #light {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .gg,
+    .gh {
+        visibility: visible;
+    }
+
+    nav ul {
+        background-color: rgba(36, 17, 104, 0.3);
+        width: 110px;
+        height: 210px;
+        margin-right: -10px;
+        padding-top: 20px;
+        position: fixed;
+        top: 2px;
+        right: -120px;
+        z-index: 100;
+        transition: right 0.5s;
+        border-radius: 40px
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px;
+        margin-left: -10px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    nav .gg {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    nav .gh {
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    #Account {
+        font-size: 15px
+    }
+
+    .item {
+
+        margin: auto;
+    }
+
+    #exp {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:401px)and (max-width:446px) {
+
+    .carouse {
+        display: block;
+    }
+
+    .rightpanel {
+        width: 100%;
+    }
+
+    .bootcarou {
+        width: 100%
+    }
+
+
+    .corouseldata {
+        margin-left: 50px;
+    }
+
+    #muchmore {
+        display: inline;
+        margin-left: 10px
+    }
+
+    .watchdata h2,
+    h4 {
+
+        font-size: 15px;
+
+    }
+
+    .watchdata {
+        margin-left: -20px;
+
+    }
+
+    .item {
+        width: 100%
+    }
+
+    #sm {
+        margin-left: 25px;
+        margin-top: 10px;
+        font-size: 20px;
+
+    }
+
+
+    #wat {
+        color: white;
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+
+    #gp {
+        margin-left: 0
+    }
+
+    #hrt {
+        margin-left: 0
+    }
+
+    #calls {
+        margin-left: 0
+    }
+
+    #access {
+        margin-left: 0
+    }
+
+    .span img {
+        width: 50px;
+        height: 50px
+    }
+
+
+    #light {
+        margin-left: 60px;
+        font-size: 20px;
+    }
+
+    .gg,
+    .gh {
+        visibility: visible;
+    }
+
+    nav ul {
+        background-color: rgba(36, 17, 104, 0.3);
+        width: 110px;
+        height: 210px;
+        margin-right: -10px;
+        padding-top: 20px;
+        position: fixed;
+        top: 2px;
+        right: -120px;
+        z-index: 100;
+        transition: right 0.5s;
+        border-radius: 40px
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px;
+        margin-left: -10px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    nav .gg {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    nav .gh {
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    #Account {
+        font-size: 15px
+    }
+
+    .item {
+
+        margin: auto;
+    }
+
+    #exp {
+        margin-left: 80px;
+    }
+
+}
+
+@media screen and (min-width:301px)and (max-width:400px) {
+
+    .carouse {
+        display: block;
+    }
+
+    .rightpanel {
+        width: 100%;
+    }
+
+    .bootcarou {
+        width: 100%
+    }
+
+
+    .corouseldata {
+        margin-left: 50px;
+    }
+
+    #muchmore {
+        display: inline;
+        margin-left: 10px
+    }
+
+    .watchdata h2,
+    h4 {
+
+        font-size: 15px;
+
+    }
+
+    .watchdata {
+        margin-left: -40px;
+
+    }
+
+    .item {
+        width: 100%
+    }
+
+    #sm {
+        margin-left: -30px;
+        margin-top: 10px;
+        font-size: 20px;
+
+    }
+
+    #muchmore {
+        margin-left: -2px;
+
+    }
+
+    #wat {
+        color: white;
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+
+    #gp {
+        margin-left: 0;
+
+    }
+
+    #hrt {
+        margin-left: 0
+    }
+
+    #calls {
+        margin-left: 0
+    }
+
+    #access {
+        margin-left: 0
+    }
+
+    .span img {
+        width: 50px;
+        height: 50px
+    }
+
+
+    #light {
+        margin-left: 18px;
+        font-size: 20px;
+    }
+
+    .gg,
+    .gh {
+        visibility: visible;
+    }
+
+    nav ul {
+        background-color: rgba(36, 17, 104, 0.3);
+        width: 110px;
+        height: 210px;
+        margin-right: -10px;
+        padding-top: 20px;
+        position: fixed;
+        top: 2px;
+        right: -120px;
+        z-index: 100;
+        transition: right 0.5s;
+        border-radius: 40px
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px;
+        margin-left: -10px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    nav .gg {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    nav .gh {
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    #Account {
+        font-size: 15px
+    }
+
+    .item {
+
+        margin: auto;
+    }
+
+    #exp {
+        margin-left: 50px;
+    }
+}
+
+

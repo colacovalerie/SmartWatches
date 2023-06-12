@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+    <link rel="stylesheet" href="./watch.css">
+    <link rel="shortcut icon"
+        href="https://staticimg.titan.co.in/Fastrack/Catalog/38082PP09_1.jpg?impolicy=pqmed&imwidth=640"
+        type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c6a50971fb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="span">
+            <img src="https://images-cdn.ubuy.co.in/6356eac935d87d7aa21cd0e3-kids-smart-watch-phone-ip67-waterproof.jpg"
+                alt="" width="60px" height="40px"><span id="wat"> Smart Watches</span>
+        </div>
+
+
+        <div class="containerhead">
+
+            <nav>
+
+                <ul id="sidemenu">
+                    <li><a href="#sec">Brands</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="./SignUP_SignIn.html" id="loginreg"><i class="fa-solid fa-user"></i>Account</a>
+                    </li>
+                    <li>
+                        <h4 id="Account">Hello <span id="User"></span></h3>
+                    </li>
+                    <li><button id="logout" onclick="logout()">Logout</button>
+
+                    </li>
+                    <i class="fa-solid fa-xmark gg" onclick="closepan()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars gh" onclick="openpan()" style="font-size:20px"></i>
+            </nav>
+        </div>
+
+    </div>
+    <div class="carouse">
+        <div class="bootcarou">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://m.media-amazon.com/images/I/712KKNCj1QL._AC_SL1001_.jpg" class="d-block w-100"
+                            height="400px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                            class="d-block w-100" alt="..." height="400px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-sm-r860nzdainu-481079019?$2052_1641_PNG$"
+                            class="d-block w-100" alt="..." height="400px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="corouseldata">
+            <h1 id="sm">
+                Smart Watches for a Smart <span class="text stxt">Life</span>
+            </h1>
+            <div class="watchdata">
+                <h4 id="gp"><i class="fa-solid fa-location-dot"></i>GPS tracking</h4>
+                <h4 id="hrt"><i class="fa-solid fa-heart-pulse"></i>Heart Pulse monitoring</h4>
+                <h4 id="calls"><i class="fa-solid fa-phone-volume"></i>Make & Receive Calls on the
+                    Go.....</h4>
+                <h4 id="access"><i class="fa-solid fa-comment-dots"> </i>Access Notifications <a href=""
+                        style="font-size:15px" id="muchmore">..and much more</a></h4>
+                <h2 id="light">Lightening deals of the day</h2>
+                <a href="#sec" id="exp">Explore our latest brands <i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- <section class="details">
+        <div class="item">
+            <span class="name">Clause</span>
+            <img src="https://images.unsplash.com/photo-1666892727040-604072abb9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80"
+                alt="" height="220px">
+            <span class="price">INR 20,000</span>
+            <button class="button-item"></button>
+        </div>
+        <div class="item" id="1">
+            <span class="name">Mamba</span>
+            <img src="https://images.unsplash.com/photo-1592865239912-7153891acf4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                alt="" height="220px">
+            <span class="price">INR 30,000</span>
+            <button class="button-item"></button>
+
+        </div>
+        <div class="item" id="2">
+            <span class="name">Titan</span>
+            <img src="https://images.unsplash.com/photo-1658824027792-3e470e76b3b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                alt="" height="220px">
+            <span class="price">INR 40,000</span>
+            <button class="button-item"></button>
+        </div>
+
+
+    </section>
+
+
+
+    </div> -->
+    <div class="seccontainer" id="sec">
+        <section class="container">
+            <div class="containeritem">
+                <div class="item">
+                    <span class="name">Samsung</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-watch5-40mm-431009-sm-r905fzaainu-thumb-533186975?$172_172_PNG$"
+                        alt="" class="imgit">
+                    <span class="cost">INR 13000/-</span><br>
+                    <button id="add1" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add2">Add to Cart</button>
+
+                </div>
+
+                <div class="item">
+                    <span class="name">Mamba</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://cdn.shopify.com/s/files/1/0997/6284/products/NoiseColorFitPro3Smartwatch_11_19e08fd1-8931-4914-a632-df3120a1d606_360x.png?v=1655378457"
+                        alt="" class="imgit">
+                    <span class="cost">INR 15000/-</span><br>
+                    <button id="add3" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add4">Add to Cart</button>
+
+                </div>
+
+                <div class="item">
+
+                    <span class="name">Fastrack</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://cdn.shopify.com/s/files/1/0997/6284/products/4.1_fe8372dd-b101-4443-8870-650a4bda47a7_360x.png?v=1681987430"
+                        alt="" class="imgit">
+                    <span class="cost">INR 15000/-</span><br>
+                    <button id="add5" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add6">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <span class="name">Titan</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                        alt="" class="imgit">
+                    <span class="cost">INR 12000/-</span><br>
+                    <button id="add7" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add8">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <span class="name">Boat</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ7ljdBWwwZY3tN1OFdA2QgOpKbgZOc-iUVgeMtJp2gk1FZuOrNVxVlcN089Rv9a-X2TlXieEbFFWY7_prXH9wRPI2GOCooBZ8rE5i0tAmww2i1xVwtY_Eib3_CkWhYSt8tXII&usqp=CAc"
+                        alt="" class="imgit">
+                    <span class="cost">INR 16000/-</span><br>
+                    <button id="add9" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add10">Add to Cart</button>
+                </div>
+                <div class="item">
+
+                    <span class="name">Apple</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTfh1fpSFXU2eXiktixL3DkE-fS2Er8O3Yr-wlEP-q5CpLVG_Qa1Dwn1EMMk99aHs-uxzld03v49MunmQTDkvNt_RvvQ8LrYNjGVmokxlLW0QB6dUbzHCg80YFOlCkw5HoYhls&usqp=CAc"
+                        alt="" class="imgit">
+                    <span class="cost">INR 20000/-</span><br>
+                    <button id="add11" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add12">Add to Cart</button>
+                </div>
+                <div class="item">
+
+                    <span class="name">Fastrack</span>
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                        alt="" class="imgit">
+                    <span class="cost">INR 20000/-</span><br>
+                    <button id="add13" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add14">Add to Cart</button>
+                </div>
+                <div class="item">
+
+                    <span class="name">Titan</span>
+
+                    <!-- <div class="image-boxe">
+                    <div class="imagees">
+                    </div>
+                </div> -->
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                        alt="" class="imgit">
+                    <span class="cost">INR 20000/-</span><br>
+                    <button id="add15" onclick="but()">Add to Cart</button>
+                    <button class="add" id="add16">Add to Cart</button>
+                </div>
+
+            </div>
+            <div class="rightpanel">
+                <div class="panel-head">
+                    <h1>Add to Cart</h1>
+                </div>
+                <div class="panel-contents">
+                    <!-- <div class="panelcontent">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                        alt="" width="80px">
+
+                    <div class="contentspan">
+                        <span class="spancontents">Clause</span>
+
+                        <div class="divcount">
+                            <i class="fa-solid fa-minus sym"></i>
+                            <input type="text" value="1" class="textbox" disabled>
+                            <i class="fa-solid fa-plus sym1"></i>
+                        </div>
+                        <span class="ite">INR 13000</span>
+                    </div>
+                    <span class="btndel">
+                        <i class="fa-solid fa-trash tra"></i>
+                    </span>
+                </div>
+
+                <div class="panelcontent">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                        alt="" width="80px">
+
+                    <div class="contentspan">
+                        <span class="spancontents">Titan</span>
+
+                        <div class="divcount">
+                            <i class="fa-solid fa-minus sym"></i>
+                            <input type="text" value="2" class="textbox" disabled>
+                            <i class="fa-solid fa-plus sym1"></i>
+                        </div>
+                        <span class="ite">INR 10000</span>
+                    </div>
+                    <span class="btndel">
+                        <i class="fa-solid fa-trash tra"></i>
+                    </span>
+                </div>
+                <div class="panelcontent">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-40-alum-starlight-nc-se_VW_34FR_WF_CO_GEO_IN?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171039000%2C1661754115495"
+                        alt="" width="80px">
+
+                    <div class="contentspan">
+                        <span class="spancontents">Apple</span>
+
+                        <div class="divcount">
+                            <i class="fa-solid fa-minus sym"></i>
+                            <input type="text" value="3" disabled class="textbox">
+                            <i class="fa-solid fa-plus sym1"></i>
+
+                        </div>
+                        <span class="ite">INR 20000</span>
+                    </div>
+
+                    <span class="btndel">
+                        <i class="fa-solid fa-trash tra"></i>
+                    </span>
+                </div> -->
+                
+
+
+                <div class="total">
+                    <div class="totcost">
+                        <strong>Total</strong>
+                        <span class="tot">INR 0</span>
+                    </div>
+                    <button class="btntotal">Items Purchased<i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <div class="foot">
+            <h3>&copy; Designed and Developed by Valerie Colaco</h3>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./watch.js"></script>
+</body>
+
+</html>

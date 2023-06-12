@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+    <script src="https://kit.fontawesome.com/c6a50971fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div id="contact">
+       
+        <div class="container">
+            <h1 class="sub-title">Contact Us</h1>
+            <div class="row">
+                <div class="colcontact-left">
+                   
+                    <div class="subtitle-div">
+
+                        <i class="fa-sharp fa-solid fa-envelope"></i><a
+                            href="mailto:colacovalerie@gmail.com">colacovalerie@gmail.com</a>
+                        <br><br><i class="fa-solid fa-phone"></i><a href="tel:+917875292534">+917875292534</a>
+                        <br><br>
+                        <a href="https://www.linkedin.com/in/valerie-colaco-5ba1a2113/" target="_blank"><i
+                                class="fa-brands fa-linkedin" style="font-size:20px; margin-bottom: 15px;"
+                                id="link"></i>valerie-colaco@linkedin</a>
+                    </div>
+                </div>
+                <div class="colcontact-right">
+
+                    <div class="form">
+                        <form action="https://formspree.io/f/mwkjyrab" method="POST">
+                            <input type="text" placeholder="Enter Your Name" id="name" name="Name" required> <br>
+                            <span id="nameval"></span>
+                            <input type="number" placeholder="Enter Your Mobile Number" id="mob" name="Mobile No"
+                                required><br>
+                            <span id="phoneval"></span>
+                            <input type="email" placeholder="Enter Your Email-id" id="email" name="Email" required><br>
+                            <span id="emailval"></span>
+                            <textarea name="Message" id="add" rows="6" placeholder="Your Message" required
+                                name="address"></textarea>
+                            <span id="mssgval"></span>
+                            <br><button id="btn2" onclick="register()">Submit</button>
+                            <div class="popclass" id="pop">
+                                <i class="fa-solid fa-check"></i>
+                                <h2 id="thank">THANK YOU, </h2>
+                                <h2 id="received">Message has been received successfully.</h2>
+                                <div class="closebutton">
+                                    <button onclick="closepopup()" id="close">CLOSE</button>
+                                </div>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./contact.js"></script>
+</body>
+
+</html>
